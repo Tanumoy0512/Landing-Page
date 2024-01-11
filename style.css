@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+nav {
+  text-align: center;
+  background-color: rgb(82, 5, 64);
+
+}
+
+body {
+  background-color: black;
+}
+
+
+
+.box2 {
+  padding-top: 20px;
+  padding-left: 40vh;
+}
+
+.content {
+  display: flex;
+  background-color: black;
+}
+
+ul {
+  display: flex;
+  position: relative;
+  padding: 3px;
+}
+
+li {
+  display: flex;
+  margin: 0px 0px 0px 10px;
+  padding: 0px 5px 0px 14px;
+  font-size: 3vh;
+}
+
+nav ul li:hover {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.item {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  color: rgb(164, 164, 211);
+}
+
+p {
+  font-size: 3vh;
+}
+
+.item1 {
+  display: flex;
+  padding-left: 141vh;
+  align-items: center;
+  color: rgb(164, 164, 211);
+}
+
+.name {
+  padding-top: 2vh;
+  padding-right: 117vh;
+  padding-left: 12px;
+  position: absolute;
+  color: rgb(201, 31, 161);
+  font-family: 'Sacramento', cursive;
+}
+p{
+  font-size: 25px;
+}
+
+.sub {
+  color:  rgb(236, 108, 17);
+  padding: 6vh;
+  font-size: 35px;
+  font-family: 'Great Vibes', cursive;
+
+}
+
+.sub1 {
+  color: white;
+  padding-top: 25vh;
+  padding-left: 20px;
+}
+
+.img {
+  display: flex;
+  padding-left: 3vh;
+}
+
+.body1 {
+  color: white;
+  background-color: #2a071b(75, 32, 57);
+}
+
+.body2 {
+  display: flex;
+  padding-left: 178px;
+  border-color: rgb(3, 10, 10);
+}
+
+
+
+input[type="button"] {
+  background-color: rgb(236, 108, 17);
+  width: 19vh;
+  height: 6vh;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+input[type="button"]:hover {
+  background-color: rgb(174, 43, 7);
+}
+
+img {
+  border-radius: 0px 0px 0px 370px;
+}
+
+.box {
+  border: solid blueviolet;
+  margin: 20px 20px 20px 20px;
+}
